@@ -1,0 +1,152 @@
+
+
+
+        *{
+
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        /* Custom CSS for carousel caption */
+
+        .carousel-caption {
+            background-color: rgba(246, 240, 240, 0.7); /* Adjust the last value (0.7) to control transparency */
+            color: rgb(20, 3, 3); /* Text color */
+            padding-right: 50px; /* Padding for the details */
+            text-align: center; /* Center-align text */
+        }
+        .carousel-item {
+            opacity: 0.7; /* Adjust the opacity value (0.7 for 70% transparency) */
+            transition: opacity 0.5s ease; /* Add a smooth transition effect */
+        }
+
+        /* Restore full opacity on hover (optional) */
+        .carousel-item:hover {
+            opacity: 1;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #FF5733; /* Custom text color */
+            text-align: center;
+        }
+
+        /* Customize the H2 heading for Season 2 */
+        h2 {
+            font-size: 24px;
+            color: #4CAF50; /* Custom text color */
+            text-align: center;
+        }
+
+        /* Customize the paragraph text */
+        p {
+            font-size: 18px;
+            color: white; /* Custom text color */
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* Adjust carousel images for responsiveness */
+        .carousel-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+            border: 2px solid #FFFFFF; /* Add border to the arrows */
+            border-radius: 50%; /* Make the arrows circular */
+            width: 40px; /* Adjust the width of the arrows */
+            height: 40px; /* Adjust the height of the arrows */
+            background-color: black;
+            position: absolute;
+            top: 50%; /* Center vertically */
+            transform: translateY(-50%)
+            /* Semi-transparent background */
+
+        }
+
+        /* Customize the arrow icons */
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            color: #FFFFFF; /* Arrow icon color */
+        }
+        .card-img-top {
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media (max-width: 767px) { /* Add styles for screens smaller than 768px (typical mobile devices) */
+        .card-img-top {
+            max-width: 50%; /* Adjust the image width for mobile devices */
+            height: auto;
+        }
+    }
+    body {
+            background-image: url('https://aniwatch.to/images/anw-min.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            background-color: #000;
+            color: white;
+        }
+
+        /* Header Styles */
+
+
+        header .container {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+        .navbar {
+        background-color: rgba(0, 0, 0, 0); /* Change the background color of the navbar here */
+    }
+
+
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Add an overlay with reduced opacity for better text contrast */
+        body::after {
+            content: "";
+            background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1; /* Place the overlay behind other content */
+        }
+        body {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            background-color: #000;
+            color: white;
+            transition: background-image 2s ease-in-out; /* Add transition for smooth image change */
+        }
+        .footer {
+            background: transparent; /* Set the background to transparent */
+            color: white;
+            padding: 10px;
+        }
+
+
